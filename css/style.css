@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #bedbbb;
+}
+
+/* Styling for header */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 4%;
+}
+
+header {
+  text-align: center;
+  max-width: 100%;
+  background: linear-gradient(45Deg, #92817a, #8db596);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header nav a {
+  font-size: 100%;
+  color: #fff;
+  text-decoration: none;
+}
+
+#brand {
+  font-size: 120%;
+  color: #000;
+  font-weight: bolder;
+}
+
+/* Style for heading and main section*/
+main {
+  text-align: center;
+}
+
+main h1 {
+  font-size: 200%;
+  max-width: 100%;
+  display: inline-block;
+  margin: 0 auto;
+  font-family: 'Kaushan Script', cursive;
+  margin: 0.5%;
+}
+
+#lineHead {
+  display: block;
+}
+
+.filters {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.filters button {
+  font-size: 100%;
+  margin-bottom: 0;
+  width: 25%;
+  font-weight: 900;
+  padding-top: 1%;
+  text-decoration: none;
+  border: none;
+  border-right: 2px solid #707070;
+  border-left: 2px solid #707070;
+  border-top: 2px solid #707070;
+  background-color: #bedbbb;
+}
+
+/* Styling the images */
+
+figure {
+  margin-top: 4%;
+  width: 80%;
+}
+
+figure img {
+  display: inline-block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  border-radius: 4%;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+figure figcaption {
+  font-size: 120%;
+}
+
+/* Styling for footer section */
+footer {
+  background-color: #707070;
+  max-width: 100%;
+  padding: 2%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #bedbbb;
+}
+
+footer nav a {
+  text-decoration: none;
+  margin-right: 2.5%;
+  color: #fff;
+}
+
+footer p {
+  font-size: 120%;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.backBtn {
+  background-color: rgba(112,112,112,0.5);
+}
+
+
+/* media query and its related styling  */
+@media only screen and (min-width: 477px) {
+  figure {
+    width: 30%;
+    display: inline-block;
+    border: 0.3rem solid rgba(255, 255, 255, 0.8);
+    padding: 1%;
+    border-radius: 4%;
+  }
+
+  figure img {
+    width: 100%;
+  }
+
+  figure figcaption {
+    font-size: 90%;
+    padding: 1.7%;
+  }
+
+  footer p {
+    margin-top: 1%;
+  }
+
+  header nav a {
+    font-size: 150%;
+  }
+
+  #brand {
+    font-size: 200%;
+  }
+
+  header nav {
+    padding: 2%;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  figure {
+    width: 10%;
+    display: inline-block;
+  }
+
+  header nav {
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  header nav {
+    padding: 1%;
+  }
+
+  footer {
+    padding: 1%;
+  }
+
+  footer p {
+    margin-right: 25px;
+  }
+}
